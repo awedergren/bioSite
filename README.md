@@ -1,2 +1,7 @@
-# bioSite
-A website about Ryan Wedergren
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+
+* Amanda Wedergren
+* Sue Sampson
+
