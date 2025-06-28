@@ -2,6 +2,8 @@
 /* June 19, 2025 */
 /* Module 6.3 Assignment */
 
+/* css styling for bioSite */
+
 .jockey-one-regular {
   font-family: "Jockey One", sans-serif;
   font-style: normal;
@@ -34,7 +36,7 @@ h2 {
   font-family: "Judson", sans-serif;
   font-size: 45px;
   margin: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 h1, h2 {
@@ -61,10 +63,22 @@ h3 a {
 
 }
 
+h4 {
+   text-align: center;
+   font-size: 22px;
+   padding: 0px;
+}
+
+.bio {
+   text-align: left;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 10px;
+}
+   
 .navbar {
    overflow: hidden;
    background-color: #E6A443; /*orange color */
-   padding: 15px;
 }
 
 .navbar a {
@@ -92,6 +106,12 @@ h3 a {
    background-color: white;
 }
 
+.blank {
+   padding-bottom: 75px;
+}
+
+
+
 .full-width {
    background-color: #E6A443; /*orange color */
    text-align: center;
@@ -103,6 +123,7 @@ h3 a {
       height: auto; /* Maintain aspect ratio */
       object-fit: cover; /* Ensures images fit nicely */
       border-radius: 8px; 
+
     }
 
 
@@ -111,21 +132,11 @@ h3 a {
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 20px; /* Space between columns */
       padding: 10px;
- }
-
-
-
- .image-grid img {
-      width: 100%; /* Make images fill their grid cell */
-      height: auto; /* Maintain aspect ratio */
-      object-fit: cover; /* Ensures images fit nicely */
-      border-radius: 8px; 
-    }
-
-
-.grid-container {
    background-color: #8FEB7C; /*green color */
+      justify-content: center;
+      align-items: center;
 }
+
 
 .container {
    border: 5px solid #8FEB7C; /*green color */
