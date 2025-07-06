@@ -132,7 +132,7 @@ h4 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 20px; /* Space between columns */
       padding: 10px;
-   background-color: #8FEB7C; /*green color */
+      background-color: #8FEB7C; /*green color */
       justify-content: center;
       align-items: center;
 }
@@ -144,6 +144,12 @@ h4 {
 
 figcaption {
    text-align: center;
+}
+
+.copyright {
+   text-align: center;
+   font-size: 13px;
+   font-weight: normal;
 }
 
 footer {
